@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Key Root: E
+      Mode: Diatonic Major
+
+      Notes:
+      E (I) Tonic
+      F# (II) Supertonic
+      G# (III) Mediant
+      A (IV) Subdominant
+      B (V) Dominant
+      C# (VI) Submediant
+      D# (VII) SubTonic
+
+      Chords:
+      E maj (I)
+      F# min (ii)
+      G# min (iii)
+      A maj (IV)
+      B maj (V)
+      C# min (vi)
+      D# dim (viiº)
+
     </div>
   );
 }
